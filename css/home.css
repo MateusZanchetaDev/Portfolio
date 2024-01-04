@@ -1,159 +1,158 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    background-color: black;
-    font-family:'Times New Roman', Times, serif;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  font-family: "Times New Roman", Times, serif;
 }
 
 header {
-    padding-bottom: 8%;
+  padding-bottom: 8%;
 }
 
 ul {
-    display: flex;
-    margin-top: 60px;
-    color: #808080;
+  display: flex;
+  margin-top: 60px;
+  color: #808080;
 }
 
 li {
-    margin-right: 95px;
-    list-style: none;
-    font-size: 26px;
+  margin-right: 95px;
+  list-style: none;
+  font-size: 26px;
 }
 
-h1, p {
-    color: white;
+h1,
+p {
+  color: white;
 }
 
-section, ul {
-    padding-left: 13%;
+section,
+ul {
+  padding-left: 13%;
 }
 
 h1 {
-    font-size: 48px;
-    width: 37%;
-    padding-bottom: 4%;
-    text-align: justify;
+  font-size: 48px;
+  width: 37%;
+  padding-bottom: 4%;
+  text-align: justify;
 }
 
 p {
-    font-size: 23px;
-    width: 39%;
-    text-align: justify;
+  font-size: 23px;
+  width: 39%;
+  text-align: justify;
 }
 
 #p-rede {
-    width: 100%;
-    padding-left: 15%;
-    font-size: 28px;
-    font-weight: bold;
+  width: 100%;
+  padding-left: 15%;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 span {
-    color: #808080;
-    border-bottom: 1px solid white;
+  color: #808080;
+  border-bottom: 1px solid white;
 }
 
 .container-redes {
-    padding-top: 4%;
-    width: 40%;
-    display: flex;
-    justify-content: center;
+  padding-top: 4%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
 }
 
 a {
-    display: flex;
-    margin-top: 10%;
-    margin-right: 40px;
-    border: 2px solid #808080;
-    border-radius: 8px;
-    width: 340px;
-    height: 70px;
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: white;
-    transition: .2s;
+  display: flex;
+  margin-top: 10%;
+  margin-right: 40px;
+  border: 2px solid #808080;
+  border-radius: 8px;
+  width: 340px;
+  height: 70px;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  transition: 0.2s;
 }
 
-a:hover, a:hover i {
-    background-color: grey;
+a:hover,
+a:hover i {
+  background-color: grey;
 }
 
 img {
-    display: flex;
-    width: 650px;
-    margin-left: 1100px;
-    margin-top: -850px;
-    border-radius: 100%;
-    border: 3px solid white;
+  display: flex;
+  width: 650px;
+  margin-left: 1100px;
+  margin-top: -850px;
+  border-radius: 100%;
+  border: 3px solid white;
 }
 
 i {
-    margin-right: 18px;
-    font-size: 30px;
+  margin-right: 18px;
+  font-size: 30px;
 }
 
-@media (max-width: 450px) {
+@media (min-width: 720px) and (max-width: 1520px) {
+  header {
+    width: 320%;
+    margin-bottom: 8%;
+  }
 
-    header {
-        width: 320%;
-        margin-bottom: 20%;
-    }
+  section, ul {
+    padding-left: 4%;
+  }
 
-    section, ul {
-        padding-left: 8%;
-    }
+  li {
+    font-size: 36px;
+  }
 
-    li {
-        font-size: 54px;
-        padding-right: 4%;
-    }
+  h1 {
+    padding-left: 8%;
+    font-size: 42px;
+    width: 50%;
+  }
 
-    h1 {
-        padding-left: 18%;
-        font-size: 65px;
-        width: 130%;
-    }
+  p {
+    width: 85%;
+    padding-top: 15%;
+    padding-left: 8%;
+    font-size: 32px;
+  }
 
-    p {
-        width: 130%;
-        padding-top: 15%;
-        padding-left: 18%;
-        font-size: 44px;
-    }
+  .container-redes {
+    width: 100%;
+  }
 
-    .container-redes {
-        width: 100%;
-    }
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #p-rede {
+    font-size: 45px;
+  }
 
-    .redes {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-left: 80%;
-    }
-    #p-rede {
-        font-size: 45px;
-        margin-left: -12%;
-    }
+  a {
+    margin-left: 6%;
+    font-size: 40px;
+    width: 430px;
+    height: 100px;
+  }
 
-    a {
-        margin-left: -12%;
-        font-size: 40px;
-        width: 450px;
-        height: 120px;
-    }
+  i {
+    font-size: 50px;
+  }
 
-    i {
-        font-size: 50px;
-    }
-
-    img {
-        width: 450px;
-        margin-top: -320%;
-        margin-left: 160%;
-    }
+  img {
+    width: 200px;
+    margin-top: -240%;
+    margin-left: 85%;
+  }
 }
