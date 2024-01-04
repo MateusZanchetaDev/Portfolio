@@ -67,7 +67,7 @@ a {
   display: flex;
   margin-top: 10%;
   margin-left: 20%;
-  border: 2px solid #808080;
+  border: 2px solid white;
   border-radius: 8px;
   width: 340px;
   height: 70px;
@@ -80,16 +80,15 @@ a {
   transition: 0.2s;
 }
 
-a:hover,
-a:hover i {
-  background-color: grey;
+a:hover {
+  border: 2px solid grey;
 }
 
 img {
   display: flex;
   width: 550px;
   margin-left: 150%;
-  margin-top: -165%;
+  margin-top: -168%;
   border-radius: 100%;
   border: 3px solid white;
 }
@@ -169,7 +168,7 @@ i {
   }
 
   li {
-    font-size: 22px;
+    font-size: 20px;
     margin-right: 40px;
   }
 
@@ -211,7 +210,7 @@ i {
   }
 
   img {
-    width: 110px;
+    width: 105px;
     margin-top: -260%;
     margin-left: 120%;
   }
