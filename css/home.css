@@ -163,29 +163,29 @@ i {
   }
 
   section, ul {
-    padding-left: 3%;
+    padding-left: 4%;
   }
 
   li {
     font-size: 20px;
-    margin-right: 50px;
+    margin-right: 80px;
   }
 
   h1 {
-    padding-left: 5%;
-    font-size: 24px;
-    width: 46%;
+    padding-left: 6%;
+    font-size: 32px;
+    width: 50%;
   }
 
   p {
-    width: 68%;
+    width: 88%;
     padding-top: 15%;
-    padding-left: 5%;
-    font-size: 16px;
+    padding-left: 6%;
+    font-size: 18px;
   }
 
   .container-redes {
-    width: 80%;
+    width: 95%;
   }
 
   .redes {
@@ -210,9 +210,9 @@ i {
   }
 
   img {
-    width: 80px;
-    margin-top: -260%;
-    margin-left: 95%;
+    width: 140px;
+    margin-top: -275%;
+    margin-left: 118%;
   }
 }
 
