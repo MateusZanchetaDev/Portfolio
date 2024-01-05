@@ -27,7 +27,7 @@ header a {
   border-bottom: 2px solid grey;
 }
 
-header a:hover{
+header a:hover {
   border-bottom: 2px solid white;
 }
 
@@ -35,8 +35,8 @@ section,
 ul {
   padding-left: 13%;
 }
- 
-h1{
+
+h1 {
   color: rgb(165, 165, 165);
   width: 100%;
   text-align: center;
@@ -44,9 +44,9 @@ h1{
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 720px) and (max-width: 1520px) {
@@ -55,7 +55,8 @@ section {
     margin-bottom: 8%;
   }
 
-  section, ul {
+  section,
+  ul {
     padding-left: 4%;
   }
 
@@ -66,20 +67,32 @@ section {
 
 @media (max-width: 450px) {
   header {
-    width: 250%;
-    margin-bottom: 8%;
+    margin-left: 6%;
   }
 
-  section, ul {
+  header a {
+    margin-right: 80px;
+  }
+
+  section,
+  ul {
     padding-left: 4%;
+  }
+
+  ul {
+    width: 200%;
   }
 
   li {
     font-size: 20px;
-    margin-right: 80px;
+  }
+
+  h1 {
+    padding-top: 10%;
+    font-size: 26px;
+    width: 350%;
   }
 }
-
 
 @media (max-width: 390px) {
   header {
@@ -87,7 +100,8 @@ section {
     margin-bottom: 8%;
   }
 
-  section, ul {
+  section,
+  ul {
     padding-left: 4%;
   }
 

@@ -27,7 +27,7 @@ header a {
   border-bottom: 2px solid grey;
 }
 
-header a:hover{
+header a:hover {
   border-bottom: 2px solid white;
 }
 
@@ -114,7 +114,8 @@ i {
     margin-bottom: 8%;
   }
 
-  section, ul {
+  section,
+  ul {
     padding-left: 4%;
   }
 
@@ -168,17 +169,25 @@ i {
 
 @media (max-width: 450px) {
   header {
-    width: 250%;
-    margin-bottom: 8%;
+    margin-left: 6%;
   }
 
-  section, ul {
+  header a {
+    margin-right: 80px;
+  }
+
+  section,
+  ul {
     padding-left: 4%;
+  }
+
+  ul 
+  {
+    width: 200%;
   }
 
   li {
     font-size: 20px;
-    margin-right: 80px;
   }
 
   h1 {
@@ -208,7 +217,7 @@ i {
     margin-left: -4%;
   }
 
-  a {
+  .redes a {
     font-size: 20px;
     width: 230px;
     height: 50px;
@@ -221,11 +230,10 @@ i {
 
   img {
     width: 140px;
-    margin-top: -275%;
-    margin-left: 118%;
+    margin-top: -278%;
+    margin-left: 120%;
   }
 }
-
 
 @media (max-width: 390px) {
   header {
@@ -233,7 +241,8 @@ i {
     margin-bottom: 8%;
   }
 
-  section, ul {
+  section,
+  ul {
     padding-left: 4%;
   }
 
