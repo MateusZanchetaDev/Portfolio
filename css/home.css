@@ -16,9 +16,19 @@ ul {
 }
 
 li {
-  margin-right: 140px;
   list-style: none;
   font-size: 26px;
+}
+
+header a {
+  color: grey;
+  margin-right: 140px;
+  text-decoration: none;
+  border-bottom: 2px solid grey;
+}
+
+header a:hover{
+  border-bottom: 2px solid white;
 }
 
 h1,
@@ -63,7 +73,7 @@ span {
   justify-content: center;
 }
 
-a {
+.redes a {
   display: flex;
   margin-top: 10%;
   margin-left: 20%;
@@ -80,7 +90,7 @@ a {
   transition: 0.2s;
 }
 
-a:hover {
+.redes a:hover {
   border: 2px solid grey;
 }
 
