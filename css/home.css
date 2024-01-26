@@ -23,7 +23,7 @@ p {
 
 #p-rede {
   width: 100%;
-  padding-left: 30%;
+  text-align: center;
   font-size: 28px;
   font-weight: bold;
 }
@@ -35,21 +35,18 @@ span {
 
 .container-redes {
   padding-top: 4%;
-  width: 40%;
   display: flex;
-  justify-content: center;
+  margin-left: 10%;
 }
 
 .redes a {
   display: flex;
   margin-top: 10%;
-  margin-left: 20%;
   border: 2px solid white;
   border-radius: 8px;
   width: 340px;
   height: 70px;
   text-decoration: none;
-  text-align: center;
   justify-content: center;
   align-items: center;
   font-size: 24px;
@@ -62,12 +59,12 @@ span {
 }
 
 img {
-  display: flex;
+  float: right;
+  margin-right: 10%;
+  margin-top: -3%;
   width: 550px;
-  margin-left: 150%;
-  margin-top: -168%;
   border-radius: 100%;
-  border: 3px solid white;
+  border: 2px solid white;
 }
 
 i {
