@@ -34,15 +34,17 @@ header a:hover {
 
 @media only screen and (max-width: 450px) {
       header {
-        margin-left: 6%;
+        margin-left: 7%;
         width: 80%;
       }
 
-      header a {
-        margin-right: 40px;
-        font-size: 16px;
+      header ul {
+        display: flex;
+        justify-content: space-between; 
       }
 
-      header li {
+      header a {
+        margin-right: 0px;
+        font-size: 18px;
       }
 }
