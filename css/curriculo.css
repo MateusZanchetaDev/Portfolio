@@ -18,7 +18,7 @@ section {
 
 @media (max-width: 450px) {
   section, ul {
-    padding-left: 4%;
+    padding-left: 0%;
   }
 
   h1 {
