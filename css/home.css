@@ -181,6 +181,10 @@ i {
     margin-right: 80px;
   }
 
+  /* section {
+    width: 80%;
+  } */
+
   section,
   ul {
     padding-left: 4%;
@@ -220,6 +224,7 @@ i {
   #p-rede {
     font-size: 22px;
     margin-left: -4%;
+    margin-top: 30%;
   }
 
   .redes a {
@@ -234,9 +239,11 @@ i {
   }
 
   img {
-    width: 140px;
-    margin-top: -278%;
-    margin-left: 120%;
+    display: flex;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 90px;
+    width: 100px;
   }
 }
 
