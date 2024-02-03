@@ -34,7 +34,7 @@ header a:hover {
 
 @media only screen and (max-width: 450px) {
       header {
-        margin-left: 7%;
+        margin-left: 10%;
         width: 80%;
       }
 
@@ -45,6 +45,6 @@ header a:hover {
 
       header a {
         margin-right: 0px;
-        font-size: 18px;
+        font-size: 20px;
       }
 }

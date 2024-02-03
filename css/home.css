@@ -174,7 +174,7 @@ i {
 
 @media only screen and (max-width: 450px) {
   section {
-    margin-left: -2%;
+    margin-left: 0%;
     width: 90%;
   }
 
@@ -183,14 +183,16 @@ i {
     padding-left: 4%;
   }
 
+  section p, h1 {
+    width: 90%;
+  }
+
   h1 {
     padding-left: 6%;
-    font-size: 32px;
-    width: 80%;
+    font-size: 28px !important;
   }
 
   section p {
-    width: 80%;
     padding-top: 20%;
     padding-left: 6%;
     font-size: 14px;
