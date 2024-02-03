@@ -183,11 +183,6 @@ i {
     padding-left: 4%;
   }
 
-  ul 
-  {
-    width: 80%;
-  }
-
   h1 {
     padding-left: 6%;
     font-size: 32px;
@@ -237,7 +232,7 @@ i {
   }
 }
 
-@media (max-width: 390px) {
+/* @media (max-width: 390px) {
   header {
     width: 250%;
     margin-bottom: 8%;
@@ -295,4 +290,4 @@ i {
     margin-top: -260%;
     margin-left: 120%;
   }
-}
+} */
