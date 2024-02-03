@@ -7,3 +7,14 @@ footer h3 {
   text-align: center;
   color: white;
 }
+
+@media (max-width: 450px) {
+  footer {
+    margin-top: 60px;
+  }
+
+  footer  h3 {
+    margin-left: -35%;
+    font-size: 14px;
+  }
+}

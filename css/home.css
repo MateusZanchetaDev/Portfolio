@@ -72,6 +72,47 @@ i {
   font-size: 30px;
 }
 
+@media (max-width: 450px) {
+  section, ul {
+    margin-left: -4%;
+  }
+
+  section h1 {
+    font-size: 18px;
+  }
+
+  section p {
+    margin-top: -40px;
+    width: 50%;
+    font-size: 14px;
+    margin-bottom: 10%;
+  }
+
+  img {
+    float: left;
+  }
+
+  .container-redes {
+    margin-left: 5%;
+  }
+
+  .redes {
+    margin-left: 5%;
+  }
+
+  #p-rede {
+    font: 12px !important;
+  }
+
+  .redes a {
+    width: 200px !important;
+    height: 40px !important;
+    font-size: 16px !important;
+    margin-left: 0% !important;
+  }
+ 
+}
+
 @media (min-width: 720px) and (max-width: 1520px) {
   header {
     width: 320%;

@@ -1,5 +1,3 @@
 Criando readme
 
-Subindo alteração
-
-Criar componente navbar - css
+Media Query #1
