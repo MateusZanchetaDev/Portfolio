@@ -34,7 +34,7 @@ header a:hover {
 
 @media (max-width: 450px) {
       header {
-        width: 80%;
+        width: 100%;
       }
 
       li {
