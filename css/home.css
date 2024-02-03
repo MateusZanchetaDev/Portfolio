@@ -181,9 +181,10 @@ i {
     margin-right: 80px;
   }
 
-  /* section {
-    width: 80%;
-  } */
+  section {
+    margin-left: -2%;
+    width: 60%;
+  }
 
   section,
   ul {
@@ -192,7 +193,7 @@ i {
 
   ul 
   {
-    width: 200%;
+    width: 80%;
   }
 
   li {
@@ -202,14 +203,14 @@ i {
   h1 {
     padding-left: 6%;
     font-size: 32px;
-    width: 50%;
+    width: 80%;
   }
 
-  p {
-    width: 88%;
-    padding-top: 15%;
+  section p {
+    width: 80%;
+    padding-top: 20%;
     padding-left: 6%;
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .container-redes {
@@ -224,7 +225,8 @@ i {
   #p-rede {
     font-size: 22px;
     margin-left: -4%;
-    margin-top: 30%;
+    margin-top: 45%;
+    margin-bottom: -5px;
   }
 
   .redes a {
@@ -241,7 +243,7 @@ i {
   img {
     display: flex;
     position: absolute;
-    margin-top: 200px;
+    margin-top: 190px;
     margin-left: 90px;
     width: 100px;
   }
