@@ -8,6 +8,28 @@ footer h3 {
   color: white;
 }
 
+@media screen and (max-width: 1517px) {
+  footer {
+    margin-top: 120px;
+    margin-bottom: 20px;
+  }
+  
+  footer h3 {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 945px) {
+  footer {
+    margin-top: 80px;
+  }
+
+  footer  h3 {
+    margin-left: 40px;
+    font-size: 22px;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   footer {
     margin-top: 60px;

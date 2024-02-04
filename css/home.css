@@ -115,7 +115,7 @@ i {
 
 @media (min-width: 720px) and (max-width: 1520px) {
   header {
-    width: 320%;
+    width: 100%;
     margin-bottom: 8%;
   }
 
@@ -172,7 +172,89 @@ i {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media screen and (max-width: 1517px) {
+    section {
+      width: 85%;
+    }
+
+    h1 {
+      font-size: 54px;
+    }
+    
+    img {
+      display: flex;
+      position: absolute;
+      margin-top: -120px;
+      margin-left: 65%;
+      width: 420px;
+    }
+  
+    .container-redes {
+      width: 100%;
+    }
+  
+    .redes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 83%;
+    }
+    #p-rede {
+      margin-bottom: -40px;
+    }
+    
+    .redes a {
+      margin-bottom: -60px;
+      font-weight: bold;
+    }
+
+    i {
+      font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 945px) {
+  h1 {
+    font-size: 54px !important;
+  }
+
+  img {
+    display: flex;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 65%;
+    width: 260px;
+  }
+
+  section p {
+    padding-top: 10%;
+    padding-left: 6%;
+  }
+
+  .container-redes {
+    width: 95%;
+  }
+
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+  }
+  #p-rede {
+    margin-bottom: -5px;
+  }
+
+  .redes a {
+    font-weight: bold;
+  }
+
+  i {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 450px) {
   section {
     margin-left: 0%;
     width: 90%;
