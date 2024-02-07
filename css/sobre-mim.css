@@ -17,6 +17,10 @@ section {
 }
 
 @media (max-width: 450px) {
+  section {
+    width: 90%;
+  }
+
   section, ul {
     padding-left: 0%;
   }
@@ -27,37 +31,3 @@ section {
     width: 350%;
   }
 }
-
-/* @media (min-width: 720px) and (max-width: 1520px) {
-  header {
-    width: 320%;
-    margin-bottom: 8%;
-  }
-
-  section,
-  ul {
-    padding-left: 4%;
-  }
-
-  li {
-    font-size: 36px;
-  }
-}
-
-
-@media (max-width: 390px) {
-  header {
-    width: 250%;
-    margin-bottom: 8%;
-  }
-
-  section,
-  ul {
-    padding-left: 4%;
-  }
-
-  li {
-    font-size: 20px;
-    margin-right: 40px;
-  }
-} */
