@@ -31,31 +31,6 @@ header a:hover {
   border-bottom: 2px solid white;
 }
 
-@media screen and (max-width: 1517px) {
-  header {
-    margin-left: 8%;
-    width: 70%;
-    margin-bottom: 2%;
-  }
-
-  header a {
-    font-size: 30px;
-    margin-left: 10px;
-  }
-}
-
-@media screen and (max-width: 945px) {
-    header {
-        margin-left: 8%;
-        width: 100%;
-        margin-bottom: 6%;
-    }
-
-    header a {
-      margin-left: 0px;
-    }
-}
-
 @media only screen and (max-width: 450px) {
       header {
         margin-left: 10%;
