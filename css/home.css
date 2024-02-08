@@ -135,3 +135,67 @@ i {
     font-size: 24px;
   }
 }
+
+@media screen and (max-width: 666px) and (orientation: landscape) {
+   
+  section {
+    width: 90%;
+  }
+
+  section,
+  ul {
+    padding-left: 4%;
+  }
+
+  section p, h1 {
+    width: 90%;
+  }
+
+  h1 {
+    padding-left: 6%;
+    font-size: 37px;
+  }
+
+  section p {
+    padding-top: 10%;
+    padding-left: 6%;
+    font-size: 18px;
+  }
+
+  img {
+    display: flex;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 240px;
+    width: 220px;
+  }
+
+  .container-redes {
+    width: 95%;
+  }
+
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+  }
+
+  #p-rede {
+    font-size: 26px;
+    margin-top: 60%;
+    margin-bottom: -5px;
+  }
+
+  .redes a {
+    font-size: 20px;
+    font-weight: bold;
+    width: 210px;
+    height: 50px;
+    margin-left: 5%;
+  }
+
+  i {
+    font-size: 24px;
+  }
+}

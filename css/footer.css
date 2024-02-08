@@ -8,6 +8,14 @@ footer h3 {
   color: white;
 }
 
+@media screen and (max-width: 666px) and (orientation: landscape) {
+  footer h3 {
+    margin-left: 2%;
+    text-align: center;
+    color: white;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   footer {
     margin-top: 60px;
