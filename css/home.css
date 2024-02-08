@@ -136,15 +136,11 @@ i {
   }
 }
 
-@media screen and (max-width: 760px) and (orientation: landscape) {
+@media screen and (max-width: 800px) and (orientation: landscape) {
   
-  section {
-    width: 90%;
-  }
-
   section,
   ul {
-    padding-left: 4%;
+    padding-left: 2%;
   }
 
   section p, h1 {
@@ -157,16 +153,16 @@ i {
   }
 
   section p {
-    padding-top: 10%;
+    padding-top: 8%;
     padding-left: 4%;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   img {
     display: flex;
     position: absolute;
-    margin-top: 290px;
-    margin-left: 240px;
+    margin-top: 300px;
+    margin-left: 290px;
     width: 220px;
   }
 
@@ -178,12 +174,12 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85%;
+    width: 90%;
   }
 
   #p-rede {
-    font-size: 30px;
-    margin-top: 60%;
+    font-size: 32px;
+    margin-top: 50%;
     margin-bottom: -5px;
   }
 
@@ -193,6 +189,7 @@ i {
     width: 210px;
     height: 50px;
     margin-left: 2%;
+    margin-top: 5%;
   }
 
   i {

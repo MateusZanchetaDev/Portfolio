@@ -31,13 +31,13 @@ header a:hover {
   border-bottom: 2px solid white;
 }
 
-@media screen and (max-width: 760px) and (orientation: landscape) {
+@media screen and (max-width: 800px) and (orientation: landscape) {
     header {
-        width: 90%;
         margin-bottom: 5%;
       }
 
     header ul {
+      margin-left: -2%;
       display: flex;
       justify-content: space-around;
       

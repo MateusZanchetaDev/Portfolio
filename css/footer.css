@@ -9,6 +9,10 @@ footer h3 {
 }
 
 @media screen and (max-width: 760px) and (orientation: landscape) {
+  footer {
+    margin-bottom: 20px;
+  }
+
   footer h3 {
     margin-left: -6%;
     text-align: center;
