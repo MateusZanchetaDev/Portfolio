@@ -1,31 +1,96 @@
-h1,
-p {
+.One {
+  padding-left: 12%;
+}
+
+.One img {
+  float: right;
+  margin-right: 10%;
+  margin-top: -8%;
+  width: 540px;
+  border-radius: 100%;
+  border: 2px solid white;
+}
+
+.One h1 {
+  font-size: 62px;
+  width: 45%;
+  padding-bottom: 15%;
+  text-align: justify;
   color: white;
 }
 
-section,
-ul {
-  padding-left: 13%;
+.Text-Tec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
-h1 {
-  font-size: 56px;
-  width: 39%;
-  padding-bottom: 4%;
-  text-align: justify;
+.Text-Tec h1 {
+  border-top: 3px solid grey;
+  border-bottom: 3px solid grey;
+  border-radius: 40px;
+  width: 20%;
+  font-size: 44px;
+  text-align: center;
+  transition: .2s;
 }
 
-p {
-  font-size: 23px;
-  width: 39%;
-  text-align: justify;
+.container-tecnologias {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-tec {
+  display: flex;
+  justify-content: center;
+}
+
+.title-tec h2 {
+  width: 30%;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  font-size: 32px;
+  margin-top: 15%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.tecnologias {
+  color: white;
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-around;
+}
+
+.tecnlogia-info img{
+  margin-top: 5%;
+  width: 180px;
+  height: 170px;
+  margin-right: 40px;
+}
+
+.tecnologias p {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-left: -16%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.container-redes {
+  padding-top: 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #p-rede {
-  width: 100%;
+  margin-top: 20%;
   text-align: center;
-  font-size: 28px;
+  font-size: 34px;
   font-weight: bold;
+  color: white;
 }
 
 span {
@@ -33,10 +98,11 @@ span {
   border-bottom: 1px solid white;
 }
 
-.container-redes {
-  padding-top: 4%;
+.redes {
   display: flex;
-  margin-left: 10%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .redes a {
@@ -44,13 +110,14 @@ span {
   margin-top: 10%;
   border: 2px solid white;
   border-radius: 8px;
-  width: 340px;
+  width: 320px;
   height: 70px;
   text-decoration: none;
   justify-content: center;
   align-items: center;
   font-size: 24px;
   color: white;
+  font-weight: bold;
   transition: 0.2s;
 }
 
@@ -58,18 +125,10 @@ span {
   border: 2px solid grey;
 }
 
-img {
-  float: right;
-  margin-right: 10%;
-  margin-top: -3%;
-  width: 550px;
-  border-radius: 100%;
-  border: 2px solid white;
-}
-
 i {
   margin-right: 18px;
-  font-size: 30px;
+  font-size: 34px;
+  color: white;
 }
 
 @media screen and (max-width: 450px) {
@@ -129,67 +188,6 @@ i {
     width: 210px;
     height: 50px;
     margin-left: 5%;
-  }
-
-  i {
-    font-size: 24px;
-  }
-}
-
-@media screen and (max-width: 800px) and (orientation: landscape) {
-  
-  section,
-  ul {
-    padding-left: 2%;
-  }
-
-  section p, h1 {
-    width: 90%;
-  }
-
-  h1 {
-    padding-left: 4%;
-    font-size: 42px;
-  }
-
-  section p {
-    padding-top: 8%;
-    padding-left: 4%;
-    font-size: 20px;
-  }
-
-  img {
-    display: flex;
-    position: absolute;
-    margin-top: 300px;
-    margin-left: 290px;
-    width: 220px;
-  }
-
-  .container-redes {
-    width: 85%;
-  }
-
-  .redes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-  }
-
-  #p-rede {
-    font-size: 32px;
-    margin-top: 50%;
-    margin-bottom: -5px;
-  }
-
-  .redes a {
-    font-size: 20px;
-    font-weight: bold;
-    width: 210px;
-    height: 50px;
-    margin-left: 2%;
-    margin-top: 5%;
   }
 
   i {
