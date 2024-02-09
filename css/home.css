@@ -6,14 +6,14 @@
   float: right;
   margin-right: 10%;
   margin-top: -8%;
-  width: 540px;
+  width: 480px;
   border-radius: 100%;
   border: 2px solid white;
 }
 
 .One h1 {
-  font-size: 62px;
-  width: 45%;
+  font-size: 48px;
+  width: 50%;
   padding-bottom: 15%;
   text-align: justify;
   color: white;
@@ -81,6 +81,29 @@
   text-align: center;
   font-weight: bold;
   margin-top: 15px;
+}
+
+.container-curriculo {
+  color: white;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-curriculo h1 {
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+
+.curriculo-info {
+  width: 420px;
+  height: 50px;
+  background-color: red;
+}
+
+.container-curriculo a {
+  color: white;
 }
 
 .container-redes {
