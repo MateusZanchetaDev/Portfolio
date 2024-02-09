@@ -12,9 +12,9 @@
 }
 
 .One h1 {
-  font-size: 46px;
-  width: 48%;
-  padding-bottom: 15%;
+  font-size: 48px;
+  width: 50%;
+  padding-bottom: 12%;
   text-align: justify;
   color: white;
 }
@@ -100,6 +100,10 @@
     margin-top: 10%;
 }
 
+.curriculo-info {
+  margin-top: 20px;
+}
+
 .container-curriculo a {
   text-decoration: none;
   color: white;
@@ -115,6 +119,50 @@
   border: 2px solid red;
   background-color: transparent;
   
+}
+
+#Text-projeto {
+  margin-top: 5%;
+}
+
+.container-projetos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.desc-projeto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.desc-projeto a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid grey;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+  transition: transform 0.3s ease-out;
+}
+
+.desc-projeto p {
+  color: white;
+  font-size: 20px;
+}
+
+.desc-projeto img {
+    width: 400px;
+  }
+
+.desc-projeto a:hover {
+  transform: scale(1.1);
+}
+
+.desc-projeto p {
+  margin-top: 10%;
 }
 
 .container-redes {
