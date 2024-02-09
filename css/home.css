@@ -57,25 +57,30 @@
 }
 
 .tecnologias {
-  color: white;
   display: flex;
-  margin-top: 80px;
-  justify-content: space-around;
+  color: white;
+  margin-top: 50px;
+}
+
+.Tec1 {
+  margin-right: 20px;
+}
+
+.tecnlogia-info {
+  margin: 0 10px;
 }
 
 .tecnlogia-info img{
-  margin-top: 5%;
   width: 180px;
   height: 170px;
-  margin-right: 40px;
 }
 
 .tecnologias p {
   font-size: 18px;
   margin-top: 25px;
-  margin-left: -16%;
   text-align: center;
   font-weight: bold;
+  margin-top: 15px;
 }
 
 .container-redes {
