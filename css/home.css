@@ -223,14 +223,14 @@ i {
   }
   
   .One img {
-    margin-top: -6%;
+    margin-top: -3%;
     margin-right: 6%;
     width: 220px;
   }
   
   .One h1 {
-    font-size: 26px;
-    width: 60%;
+    font-size: 38px;
+    width: 65%;
     padding-bottom: 12%;
   }
   
@@ -238,7 +238,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 10%;
+    margin-top: 6%;
   }
   
   .Text-Tec h1 {
@@ -256,7 +256,7 @@ i {
   .title-tec h2 {
     width: 30%;
     font-size: 32px;
-    margin-top: 15%;
+    margin-top: 14%;
   }
   
   .Tec1 {
@@ -268,8 +268,8 @@ i {
   }
   
   .tecnlogia-info img{
-    width: 140px;
-    height: 140px;
+    width: 160px;
+    height: 160px;
   }
   
   .tecnologias p {
