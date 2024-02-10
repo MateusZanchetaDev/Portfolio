@@ -33,7 +33,7 @@ header a:hover {
   border-bottom: 2px solid white;
 }
 
-@media screen and (max-width: 800px) and (orientation: landscape) {
+/* @media screen and (max-width: 800px) and (orientation: landscape) {
     header {
         margin-bottom: 5%;
       }
@@ -49,22 +49,25 @@ header a:hover {
       margin-right: 0px;
       font-size: 24px;
     }
-}
+} */
 
 @media only screen and (max-width: 450px) {
-      header {
-        margin-left: 8%;
-        width: 80%;
-        margin-bottom: 10%;
-      }
+  header {
+    padding-bottom: 8%;
+  }
+  
+  ul {
+    display: flex;
+    margin-top: 60px;
+    padding-left: 6%;
+  }
+  
+  li {
+    list-style: none;
+    font-size: 30px;
+  }
 
-      header ul {
-        display: flex;
-        justify-content: space-between; 
-      }
-
-      header a {
-        margin-right: 0px;
-        font-size: 20px;
-      }
+  header a {
+    margin: 0px 40px 0px 35px ;
+  }
 }
