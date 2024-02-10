@@ -35,7 +35,7 @@ header a:hover {
 
 @media only screen and (max-width: 1024px) {
   header {
-    padding-bottom: 10%;
+    padding-bottom: 12%;
   }
   
   ul {
