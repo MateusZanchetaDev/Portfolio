@@ -217,7 +217,7 @@ i {
   color: white;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 800px) {
   .One {
     padding-left: 4%;
   }
@@ -225,11 +225,11 @@ i {
   .One img {
     margin-top: -6%;
     margin-right: 6%;
-    width: 280px;
+    width: 220px;
   }
   
   .One h1 {
-    font-size: 34px;
+    font-size: 26px;
     width: 60%;
     padding-bottom: 12%;
   }
@@ -243,7 +243,7 @@ i {
   
   .Text-Tec h1 {
     width: 40%;
-    font-size: 48px;
+    font-size: 38px;
   }
   
   .container-tecnologias {
@@ -255,7 +255,7 @@ i {
   
   .title-tec h2 {
     width: 30%;
-    font-size: 42px;
+    font-size: 32px;
     margin-top: 15%;
   }
   
@@ -268,17 +268,17 @@ i {
   }
   
   .tecnlogia-info img{
-    width: 220px;
-    height: 220px;
+    width: 140px;
+    height: 140px;
   }
   
   .tecnologias p {
-    font-size: 32px;
+    font-size: 20px;
     margin-top: 25px;
   }
   
   .container-curriculo {
-    margin-top: 15%;
+    margin-top: 10%;
   }
   
   .container-curriculo h1 {
@@ -287,7 +287,7 @@ i {
   }
   
   #Curriculo {
-      margin-top: 25%;
+      margin-top: 20%;
   }
   
   .curriculo-info {
@@ -295,44 +295,39 @@ i {
   }
   
   .container-curriculo a {
-    padding: 20px 22px;
-    font-size: 26px;
+    padding: 12px 14px;
+    font-size: 16px;
   }
   
   #Text-projeto {
-    margin-top: 20%;
+    margin-top: 14%;
   }
   
   .desc-projeto p {
     color: white;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: bold;
   }
   
   .desc-projeto img {
-      width: 280px;
+      width: 220px;
     }
-  
-  .container-redes {
-    padding-top: 8%;
-  }
   
   #p-rede {
     margin-top: 20%;
-    font-size: 42px;
+    font-size: 32px;
   }
   
   .redes a {
-    margin-top: 10%;
-    width: 380px;
-    height: 80px;
-    font-size: 34px;
+    width: 290px;
+    height: 60px;
+    font-size: 24px;
     font-weight: normal;
   }
   
   i {
     margin-right: 18px;
-    font-size: 46px;
+    font-size: 32px;
     color: white;
   }
 }
