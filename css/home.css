@@ -220,19 +220,18 @@ i {
 
 @media screen and (max-width: 450px) {
   .One {
-    padding-left: 8%;
+    padding-left: 6%;
   }
 
   .One img {
-    margin-top: -5%;
-    margin-right: -30%;
-    width: 180px;
+    margin: 5%;
+    width: 110px;
   }
   
   .One h1 {
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 20%;
-    width: 80%;
+    width: 60%;
     padding-bottom: 12%;
     text-align: justify;
     color: white;
@@ -242,17 +241,12 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    margin-top: 35%;
+    margin-top: 25%;
   }
   
   .Text-Tec h1 {
-    border-top: 3px solid grey;
-    border-bottom: 3px solid grey;
-    border-radius: 40px;
-    width: 80%;
-    font-size: 44px;
-    text-align: center;
+    width: 60%;
+    font-size: 34px;
   }
   
   .container-tecnologias {
@@ -266,47 +260,34 @@ i {
   }
   
   .title-tec h2 {
-    width: 30%;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
+    width: 50%;
     font-size: 32px;
-    margin-top: 15%;
-    text-align: center;
-    color: whitesmoke;
+    margin-top: 25%;
   }
   
   .tecnologias {
     display: flex;
-    color: white;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
   }
   
-  .Tec1 {
-    margin-right: 20px;
-  }
-  
   .tecnlogia-info {
-    margin: 0 30px;
+    margin: 0 0px 60px 0px;
   }
   
   .tecnlogia-info img{
-    width: 150px;
+    width: 180px;
   }
   
   .tecnologias p {
-    font-size: 18px;
-    margin-top: 25px;
-    text-align: center;
-    font-weight: bold;
+    font-size: 22px;
     margin-top: 15px;
   }
   
   .container-curriculo {
-    color: white;
-    margin-top: 4%;
+    margin-top: 8%;
     display: flex;
-    justify-content: center;
-    text-align: center;
   }
   
   .container-curriculo h1 {
@@ -315,124 +296,60 @@ i {
   }
   
   #Curriculo {
-      margin-top: 10%;
+      margin-top: 20%;
   }
   
   .curriculo-info {
-    margin-top: 20px;
+    margin-top: 80px;
   }
   
   .container-curriculo a {
     text-decoration: none;
     color: white;
     padding: 14px 16px;
-    font-weight: bold;
-    background-color: red;
-    border: 2px solid red;
-    border-radius: 10px;
-    transition: .2s;
-  }
-  
-  .container-curriculo a:hover {
-    border: 2px solid red;
-    background-color: transparent;
-    
   }
   
   #Text-projeto {
-    margin-top: 5%;
+    margin-top: 25%;
   }
   
   .container-projetos {
     display: block;
     align-items: center;
-    justify-content: space-evenly;
   }
   
   .desc-projeto {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 5%;
-  }
-  
-  .desc-projeto a {
-    color: white;
-    text-decoration: none;
-    border: 1px solid grey;
-    border-radius: 6px;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
-    transition: transform 0.3s ease-out;
+    margin-top: 25%;
   }
   
   .desc-projeto p {
-    color: white;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: bold;
   }
   
   .desc-projeto img {
-      width: 400px;
+      width: 250px;
     }
   
-  .desc-projeto a:hover {
-    transform: scale(1.1);
-  }
-  
   .desc-projeto p {
-    margin-top: 10%;
+    margin-top: 8%;
   }
   
   .container-redes {
     padding-top: 4%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
   
   #p-rede {
-    margin-top: 20%;
-    text-align: center;
-    font-size: 34px;
-    font-weight: bold;
-    color: white;
-  }
-  
-  span {
-    color: #808080;
-    border-bottom: 1px solid white;
-  }
-  
-  .redes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-top: 30%;
+    font-size: 30px;
   }
   
   .redes a {
     display: flex;
     margin-top: 10%;
-    border: 2px solid white;
-    border-radius: 8px;
-    width: 320px;
+    width: 290px;
     height: 70px;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: white;
-    font-weight: bold;
-    transition: 0.2s;
-  }
-  
-  .redes a:hover {
-    border: 2px solid grey;
-  }
-  
-  i {
-    margin-right: 18px;
-    font-size: 34px;
-    color: white;
   }
 }
