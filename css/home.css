@@ -278,11 +278,7 @@ i {
   }
   
   .container-curriculo {
-    color: white;
-    margin-top: 4%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    margin-top: 15%;
   }
   
   .container-curriculo h1 {
@@ -291,7 +287,7 @@ i {
   }
   
   #Curriculo {
-      margin-top: 10%;
+      margin-top: 25%;
   }
   
   .curriculo-info {
@@ -299,116 +295,44 @@ i {
   }
   
   .container-curriculo a {
-    text-decoration: none;
-    color: white;
-    padding: 14px 16px;
-    font-weight: bold;
-    background-color: red;
-    border: 2px solid red;
-    border-radius: 10px;
-    transition: .2s;
-  }
-  
-  .container-curriculo a:hover {
-    border: 2px solid red;
-    background-color: transparent;
-    
+    padding: 20px 22px;
+    font-size: 26px;
   }
   
   #Text-projeto {
-    margin-top: 5%;
-  }
-  
-  .container-projetos {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-  
-  .desc-projeto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 5%;
-  }
-  
-  .desc-projeto a {
-    color: white;
-    text-decoration: none;
-    border: 1px solid grey;
-    border-radius: 6px;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
-    transition: transform 0.3s ease-out;
+    margin-top: 20%;
   }
   
   .desc-projeto p {
     color: white;
-    font-size: 20px;
+    font-size: 26px;
+    font-weight: bold;
   }
   
   .desc-projeto img {
-      width: 400px;
+      width: 280px;
     }
   
-  .desc-projeto a:hover {
-    transform: scale(1.1);
-  }
-  
-  .desc-projeto p {
-    margin-top: 10%;
-  }
-  
   .container-redes {
-    padding-top: 4%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 8%;
   }
   
   #p-rede {
     margin-top: 20%;
-    text-align: center;
-    font-size: 34px;
-    font-weight: bold;
-    color: white;
-  }
-  
-  span {
-    color: #808080;
-    border-bottom: 1px solid white;
-  }
-  
-  .redes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    font-size: 42px;
   }
   
   .redes a {
-    display: flex;
     margin-top: 10%;
-    border: 2px solid white;
-    border-radius: 8px;
-    width: 320px;
-    height: 70px;
-    text-decoration: none;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: white;
-    font-weight: bold;
-    transition: 0.2s;
-  }
-  
-  .redes a:hover {
-    border: 2px solid grey;
+    width: 380px;
+    height: 80px;
+    font-size: 34px;
+    font-weight: normal;
   }
   
   i {
     margin-right: 18px;
-    font-size: 34px;
+    font-size: 46px;
     color: white;
   }
 }
