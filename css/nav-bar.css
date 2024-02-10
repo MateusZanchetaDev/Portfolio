@@ -33,24 +33,6 @@ header a:hover {
   border-bottom: 2px solid white;
 }
 
-/* @media screen and (max-width: 800px) and (orientation: landscape) {
-    header {
-        margin-bottom: 5%;
-      }
-
-    header ul {
-      margin-left: -2%;
-      display: flex;
-      justify-content: space-around;
-      
-    }
-
-    header a {
-      margin-right: 0px;
-      font-size: 24px;
-    }
-} */
-
 @media only screen and (max-width: 450px) {
   header {
     padding-bottom: 8%;
@@ -69,28 +51,5 @@ header a:hover {
   
   header a {
     margin-right: 0px;
-  }
-}
-
-@media only screen and (min-width: 390px) and (max-width: 644px) {
-  header {
-    padding-bottom: 8%;
-  }
-  
-  ul {
-    display: flex;
-    padding-left: 30%;
-    justify-content: space-between;
-    align-items: center;
-    
-    margin-top: 60px;
-  }
-  
-  li {
-    font-size: 32px;
-  }
-  
-  header a {
-    margin-right: 180px;
   }
 }
