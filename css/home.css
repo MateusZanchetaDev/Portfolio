@@ -217,7 +217,7 @@ i {
   color: white;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 820px) {
   .One {
     padding-left: 4%;
   }
