@@ -221,15 +221,16 @@ i {
 @media screen and (max-width: 450px) {
   .One {
     padding-left: 6%;
+    margin-top: -10%;
   }
 
   .One img {
-    margin: 5%;
+    margin: -2% 4% 0% 0%;
     width: 110px;
   }
   
   .One h1 {
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 20%;
     width: 60%;
     padding-bottom: 12%;
@@ -241,7 +242,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 15%;
   }
   
   .Text-Tec h1 {
