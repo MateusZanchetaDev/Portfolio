@@ -80,7 +80,6 @@
   margin-top: 25px;
   text-align: center;
   font-weight: bold;
-  margin-top: 15px;
 }
 
 .container-curriculo {
@@ -216,6 +215,202 @@ i {
   margin-right: 18px;
   font-size: 34px;
   color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .One {
+    padding-left: 4%;
+  }
+  
+  .One img {
+    margin-top: -6%;
+    margin-right: 6%;
+    width: 280px;
+  }
+  
+  .One h1 {
+    font-size: 34px;
+    width: 60%;
+    padding-bottom: 12%;
+  }
+  
+  .Text-Tec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+  }
+  
+  .Text-Tec h1 {
+    width: 40%;
+    font-size: 48px;
+  }
+  
+  .container-tecnologias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title-tec h2 {
+    width: 30%;
+    font-size: 42px;
+    margin-top: 15%;
+  }
+  
+  .Tec1 {
+    margin-right: 20px;
+  }
+  
+  .tecnlogia-info {
+    margin: 0 60px;
+  }
+  
+  .tecnlogia-info img{
+    width: 220px;
+    height: 220px;
+  }
+  
+  .tecnologias p {
+    font-size: 32px;
+    margin-top: 25px;
+  }
+  
+  .container-curriculo {
+    color: white;
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .container-curriculo h1 {
+      font-size: 42px;
+      margin-bottom: 40px;
+  }
+  
+  #Curriculo {
+      margin-top: 10%;
+  }
+  
+  .curriculo-info {
+    margin-top: 20px;
+  }
+  
+  .container-curriculo a {
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+    font-weight: bold;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    transition: .2s;
+  }
+  
+  .container-curriculo a:hover {
+    border: 2px solid red;
+    background-color: transparent;
+    
+  }
+  
+  #Text-projeto {
+    margin-top: 5%;
+  }
+  
+  .container-projetos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .desc-projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+  }
+  
+  .desc-projeto a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .desc-projeto p {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .desc-projeto img {
+      width: 400px;
+    }
+  
+  .desc-projeto a:hover {
+    transform: scale(1.1);
+  }
+  
+  .desc-projeto p {
+    margin-top: 10%;
+  }
+  
+  .container-redes {
+    padding-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #p-rede {
+    margin-top: 20%;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  span {
+    color: #808080;
+    border-bottom: 1px solid white;
+  }
+  
+  .redes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .redes a {
+    display: flex;
+    margin-top: 10%;
+    border: 2px solid white;
+    border-radius: 8px;
+    width: 320px;
+    height: 70px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+  
+  .redes a:hover {
+    border: 2px solid grey;
+  }
+  
+  i {
+    margin-right: 18px;
+    font-size: 34px;
+    color: white;
+  }
 }
 
 @media screen and (max-width: 450px) {
