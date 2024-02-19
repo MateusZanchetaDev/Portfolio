@@ -365,14 +365,14 @@ textarea {
   }
   
   .One img {
-    margin-top: -6%;
-    margin-right: 6%;
+    margin-right: 80px;
+    margin-top: -10%;
     width: 200px;
   }
   
   .One h1 {
-    font-size: 30px;
-    width: 60%;
+    font-size: 32px;
+    width: 90%;
     padding-bottom: 12%;
   }
   
