@@ -20,8 +20,12 @@
     </header>
 
         <section class="One">
-            <img id="img-perfil" src="img/WhatsApp Image 2023-08-16 at 19.50.00.jpeg" title="Imagem perfil">
-            <h1>Olá me chamo Mateus Zancheta, tenho 19 anos e sou desenvolvedor com especialidade em <span>Back-end e Front-end</span>.</h1>
+            <div>
+                <h1>Olá me chamo Mateus Zancheta, tenho 19 anos e sou desenvolvedor com especialidade em <span>Back-end e Front-end</span>.</h1>
+            </div>
+            <div>
+                <img id="img-perfil" src="img/WhatsApp Image 2023-08-16 at 19.50.00.jpeg" title="Imagem perfil">
+            </div>
         </section>
         
         <div class="Text-Tec">
@@ -112,13 +116,31 @@
                 <p>Gerenciador de Cinema</p>
             </div>
         </section>
+        
+    <div class="Text-Tec" id="Curriculo">
+        <h1>Redes</h1>
+    </div>
 
     <section class="container-redes">
         <div class="redes">
-        <p id="p-rede">Acesse minhas redes:</p>
         <a href="https://github.com/MateusZancheta" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
         <a href="https://www.linkedin.com/in/mateus-zancheta-falcao/" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
         <a href="https://www.instagram.com/off_kaito/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+        </div>
+    </section>
+
+    <div class="Text-Tec" id="Curriculo">
+        <h1>Contato</h1>
+    </div>
+
+    <section id="formulario">
+        <div id="informacoes">
+            <form action="https://formsubmit.co/mateuszancheta2005@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Digite seu nome" required>
+                <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+           </form>
         </div>
     </section>
 
