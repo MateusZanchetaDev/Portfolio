@@ -260,16 +260,12 @@ textarea {
   resize: none;
 }
 
-@media only screen and (max-width: 1460px)
-{
-  
-}
-
 @media only screen and (max-width: 1340px) {
   .One img {
     margin-top: -5%;
     margin-right: 8%;
     width: 280px;
+    height: 280px;
   }
   
   .One h1 {
@@ -374,6 +370,7 @@ textarea {
   
   .One img {
     width: 200px;
+    height: 200px;
     margin-top: -15%;
     margin-right: 60px;
   }
@@ -490,6 +487,7 @@ textarea {
     margin-top: 35%;
     margin-right: 20px;
     width: 100px;
+    height: 100px;
   }
   
   .One h1 {
