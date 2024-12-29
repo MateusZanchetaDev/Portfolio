@@ -252,6 +252,7 @@ form button {
   height: 40px;
   width: 120px;
   font-size: 16px;
+  cursor: pointer;
 }
 
 textarea {
