@@ -1,9 +1,50 @@
 footer {
-  margin-top: 40px;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #7610F7;
+  height: 460px;
+  margin-top: 80px;
 }
 
 footer h4 {
-  text-align: center;
   color: white;
+  font-size: 18px;
+}
+
+footer div:nth-child(2) {
+  width: 15%;
+}
+
+footer img {
+  width: 100px;
+}
+
+footer section, footer a, footer i, footer h4, footer div, footer img {
+  background-color: #7610F7;
+}
+
+footer div {
+    padding-bottom: 50px;
+}
+
+#redes a {
+  margin: 20px;
+}
+
+footer i {
+  padding: 10px;
+  font-size: 26px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 100%;
+  justify-content: space-between;
+  transition: .2s;
+}
+
+footer i:hover {
+  background-color: white;
+  color: #7610F7;
 }

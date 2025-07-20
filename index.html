@@ -1,161 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-V8LHZ8PRM3"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-V8LHZ8PRM3');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/nav-bar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="icon" href="./img/favicon.jpg" type="image/x-icon">
-    
+    <link rel="icon" href="./img/" type="image/x-icon">
     <title>Portfólio - Mateus Zancheta</title>
 </head>
+
 <body>
-    <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#Curriculo">Currículo</a></li>
-            <li><a href="#Text-projeto">Projetos</a></li>
-        </ul>
-    </header>
-
-        <section class="One">
-            <div>
-                <h1>Olá me chamo Mateus Zancheta, tenho 20 anos e sou desenvolvedor com especialidade em <span>Full Stack</span>.</h1>
-            </div>
-            <div>
-                <img id="img-perfil" src="img/FotoPerfil.jpeg" title="Imagem perfil">
-            </div>
-        </section>
-        
-        <div class="Text-Tec">
-             <h1>Tecnlogias</h1>
+    <nav>
+        <div>
+            <a><img src="./img/Logo.png" title="Imagem Logo"></a>
         </div>
-
-    <section class="container-tecnologias">
-        <div class="Tec1">
-            <div class="title-tec">
-                <h2>Backend</h2>
-            </div>
-
-            <div class="tecnologias">
-                <div class="tecnlogia-info">
-                    <img src="img/VS.jpeg">
-                    <p>C#</p>
-                </div>
-
-                <div class="tecnlogia-info">
-                    <img src="img/SQLserver.webp">
-                    <p>SQL Server</p>
-                </div>
-
-                <div class="tecnlogia-info">
-                    <img src="img/Mysql4.png">
-                    <p>MySQL</p>
-                </div>
-            </div>
+        <div>
+            <a href="#projects">Projetos
+                <hr>
+            </a>
+            <a href="contate-me.html">Contate-me
+                <hr>
+            </a>
         </div>
+    </nav>
 
-        <div class="Tec1">
-            <div class="title-tec">
-                <h2>Frontend</h2>
-            </div>
-
-            <div class="tecnologias">
-                <div class="tecnlogia-info">
-                    <img src="img/HTML.png">
-                    <p>HTML5</p>
-                </div>
-
-                <div class="tecnlogia-info">
-                    <img src="img/css.png">
-                    <p>CSS3</p>
-                </div>
-
-                <div class="tecnlogia-info">
-                    <img src="img/js.webp">
-                    <p>JavaScript</p>
-                </div>
-            </div>
+    <section class="dev-body">
+        <div>
+            <h1>Fullstack Developer & Suporte TI</h1>
+        </div>
+        <div>
+            <p>Construo sistemas web escaláveis do front ao back e ofereço suporte direto para resolver problemas de
+                infraestrutura e rede.</p>
+        </div>
+        <div>
+            <img src="./img/Avatar.png" title="Imagem Logo">
+        </div>
+        <div>
+            <img id="devices" src="./img/Devices.svg">
         </div>
     </section>
 
-    <div class="Text-Tec" id="Curriculo">
-        <h1>Currículo</h1>
-    </div>
-
-    <section class="container-curriculo" >
-            <div class="curriculo-info">
-                <a href="./arq/MateusZancheta.pdf" download="">Baixar Currículo</a>
-            </div>
+    <section class="dev-body-informations">
+        <div>
+            <h1>Olá, me chamo Mateus Zancheta. Seja bem-vindo.</h1>
+        </div>
+        <div>
+            <p>Sou um desenvolvedor fullstack em formação, atualmente no sexto semestre da graduação em Sistemas de Informação. Enquanto continuo aprendendo e desenvolvendo minhas habilidades em desenvolvimento web, atuo
+                com suporte de TI, resolvendo problemas técnicos do dia a dia e garantindo que os sistemas funcionem
+                corretamente. Tenho paixão por tecnologia, sou naturalmente curioso e estou sempre me desafiando a
+                evoluir tanto no desenvolvimento quanto na infraestrutura.</p>
+        </div>
     </section>
 
-    <div class="Text-Tec" id="Text-projeto">
+    <section class="dev-skills">
+        <div>
+            <img src="img/Backend.png" alt="">
+            <h1>Backend Developer</h1>
+            <p>Valorizo construir sistemas robustos, com foco em desempenho, segurança e organização de código.</p>
+            <span style="color: #7610F7;"><strong>Coisas que gosto de desenvolver:</strong></span>
+            <p>APIs, Bancos de Dados, XAML</p>
+            <span style="color: #7610F7;"><strong>Ferramentas & Tecnologias:</strong></span>
+            <p>C# <br>SQLServer <br> MySQL <br> FastAPI <br>Python </p>
+        </div>
+
+        <div>
+            <img src="img/Frontend.png" alt="">
+            <h1>Frontend Developer</h1>
+            <p>Gosto de construir soluções funcionais, com código limpo, lógica clara e interfaces intuitivas.</p>
+            <span style="color: #7610F7;"><strong>Coisas que gosto de projetar:</strong></span>
+            <p>Websites, Apps</p>
+            <span style="color: #7610F7;"><strong>Ferramentas & Tecnologias:</strong></span>
+            <p>HTML <br> CSS <br> JavaScript <br> React  <br> Python </p>
+
+        </div>
+
+        <div>
+            <img src="img/Suporte.png" alt="">
+            <h1>Suporte de TI</h1>
+            <p>Ofereço suporte técnico para manter a estabilidade dos sistemas e ajudar usuários no dia a dia.</p>
+            <span style="color: #7610F7;"><strong>Coisas que gosto de fazer:</strong></span>
+            <p>Atendimento, Diagnóstico, Manutenção de Sistemas</p>
+            <span style="color: #7610F7;"><strong>Ferramentas & Tecnologias:</strong></span>
+            <p> Windows <br> Pacote Office <br> AnyDesk <br> Assistência Local <br> Redes </p>
+        </div>
+    </section>
+
+    <div id="title-project">
         <h1>Projetos</h1>
-    </div>
-   
-        <section class="container-projetos">
-            <div class="desc-projeto">
-                <a href="https://github.com/MateusZanchetaDev/YoungAnimeAPI" target="_blank">
-                    <img src="./img/Project1.PNG">
-                </a>
-                <p>Gerenciador de Animes</p>
-            </div>
-
-            <div class="desc-projeto">
-                <a href="https://github.com/MateusZanchetaDev/AcademiaDoZe" target="_blank">
-                    <img src="./img/Project2.PNG">
-                </a>
-                <p>Sistema de Academia</p>
-            </div>
-
-            <div class="desc-projeto">
-                <a href="https://github.com/MateusZanchetaDev/CursosDeIdiomasWebAPI" target="_blank">
-                    <img src="./img/Project3.PNG">
-                </a>
-                <p>Cursos de Idiomas API</p>
-            </div>
-        </section>
-        
-    <div class="Text-Tec" id="Curriculo">
-        <h1>Redes</h1>
+        <p>Aqui estão alguns projetos em que trabalhei. Quer ver mais? <a href="contate-me.html">Mande um e-mail</a>.</p>
     </div>
 
-    <section class="container-redes">
-        <div class="redes">
-        <a href="https://github.com/MateusZanchetaDev" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
-        <a href="https://www.linkedin.com/in/mateus-zancheta-falcao/" target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
-        <a href="https://www.instagram.com/off_kaito/" target="_blank"><i class="fa-brands fa-instagram"></i>Instagram</a>
+    <section class="container-projects" id="projects">
+        <div class="descripition-project">
+            <a href="https://github.com/MateusZanchetaDev/YoungAnimeAPI" target="_blank">
+                <img src="./img/Project1.PNG">
+            </a>
+            <p>Gerenciador de Animes</p>
         </div>
-    </section>
 
-    <div class="Text-Tec" id="Curriculo">
-        <h1>Contato</h1>
-    </div>
+        <div class="descripition-project">
+            <a href="https://github.com/MateusZanchetaDev/AcademiaDoZe" target="_blank">
+                <img src="./img/Project2.PNG">
+            </a>
+            <p>Sistema de Academia</p>
+        </div>
 
-    <section id="formulario">
-        <div id="informacoes">
-            <form action="https://formsubmit.co/mateuszancheta2005@gmail.com" method="POST">
-                <input type="text" name="name" placeholder="Digite seu nome" required>
-                <input type="email" name="email" placeholder="Digite seu e-mail" required>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-                <input type="hidden" name="_captcha" value="false">
-           </form>
+        <div class="descripition-project">
+            <a href="https://github.com/MateusZanchetaDev/CursosDeIdiomasWebAPI" target="_blank">
+                <img src="./img/Project3.PNG">
+            </a>
+            <p>Cursos de Idiomas API</p>
         </div>
     </section>
 
     <footer>
-        <h4>Developer Mateus Zancheta</h4>
+        <div><a><img id="img-perfil" src="./img/Logo2.png" title="Imagem Logo"></a></div>
+        <div>
+            <h4>Vivendo, aprendendo e evoluindo um dia de cada vez.</h4>
+        </div>
+        <div id="redes">
+            <a href="https://github.com/MateusZanchetaDev" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mateus-zancheta-falcao/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/off_kaito/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
     </footer>
 </body>
 </html>

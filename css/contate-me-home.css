@@ -1,0 +1,59 @@
+h1 {
+    margin: 80px 0px;
+    text-align: center;
+    font-weight: 300;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section div {
+  padding-bottom: 30px;
+}
+
+section div:nth-child(4) {
+    display: flex;
+    justify-content: center;
+}
+
+section p {
+    margin-bottom: 8px;
+    color: #747A87;
+}
+
+form input, textarea {
+  width: 320px;
+  height: 40px;
+  border: 1px solid #E6ECF8;
+  border-radius: 6px;
+}
+
+textarea, input {
+  padding-left: 10px;
+}
+
+section button {
+  height: 40px;
+  width: 120px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  color: #6E07F3;
+  border: 2px solid #6E07F3;
+  transition: .3s;
+}
+
+section button:hover {
+    background-color: #6E07F3;
+    color: white;
+}
+
+textarea {
+  height: 160px;
+  padding-top: 10px;
+  resize: none;
+}
