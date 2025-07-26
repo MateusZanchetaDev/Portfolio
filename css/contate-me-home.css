@@ -1,7 +1,7 @@
 h1 {
-    margin: 80px 0px;
-    text-align: center;
-    font-weight: 300;
+  margin: 80px 0px;
+  text-align: center;
+  font-weight: 300;
 }
 
 section {
@@ -15,23 +15,25 @@ section div {
 }
 
 section div:nth-child(4) {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 section p {
-    margin-bottom: 8px;
-    color: #747A87;
+  margin-bottom: 8px;
+  color: #747A87;
 }
 
-form input, textarea {
+form input,
+textarea {
   width: 320px;
   height: 40px;
   border: 1px solid #E6ECF8;
   border-radius: 6px;
 }
 
-textarea, input {
+textarea,
+input {
   padding-left: 10px;
 }
 
@@ -48,12 +50,19 @@ section button {
 }
 
 section button:hover {
-    background-color: #6E07F3;
-    color: white;
+  background-color: #6E07F3;
+  color: white;
 }
 
 textarea {
   height: 160px;
   padding-top: 10px;
   resize: none;
+}
+
+@media only screen and (max-width: 450px) {
+
+  h1 {
+    font-size: 26px;
+  }
 }

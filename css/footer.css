@@ -22,12 +22,17 @@ footer img {
   width: 100px;
 }
 
-footer section, footer a, footer i, footer h4, footer div, footer img {
+footer section,
+footer a,
+footer i,
+footer h4,
+footer div,
+footer img {
   background-color: #7610F7;
 }
 
 footer div {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 #redes a {
@@ -47,4 +52,16 @@ footer i {
 footer i:hover {
   background-color: white;
   color: #7610F7;
+}
+
+
+@media screen and (max-width: 450px) {
+
+  footer h4 {
+    font-size: 20px;
+  }
+
+  footer div:nth-child(2) {
+    width: 50%;
+  }
 }
