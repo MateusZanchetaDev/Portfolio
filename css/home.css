@@ -143,12 +143,12 @@
   }
 
   .dev-body h1 {
-    font-size: 24px;
+    font-size: 22px;
   }
 
   .dev-body p {
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .dev-body #devices {
@@ -166,7 +166,7 @@
   }
 
   .dev-body-informations div {
-    width: 80%;
+    width: 85%;
     background-color: #7610F7;
   }
 
@@ -177,13 +177,13 @@
   }
 
   .dev-skills {
-    left: 5%;
+    left: 2.5%;
     top: 72rem;
   }
 
   .dev-skills div {
     width: 130px;
-    height: 680px;
+    height: 600px;
   }
 
   .dev-skills img {
@@ -216,7 +216,7 @@
   }
 
   .descripition-project img {
-    width: 140px;
+    width: 135px;
   }
 
   .descripition-project p {
